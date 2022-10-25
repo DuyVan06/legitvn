@@ -1,0 +1,223 @@
+:root {
+    --primary-color: rgb(89, 0, 255);
+    --primary-color-hover: rgb(98, 0, 255);
+    --dark: #161616;
+    --dark-box: #171717
+}
+
+html {
+    scroll-behavior: smooth;
+    min-height: 0;
+    overflow-x: hidden
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    font-family: montserrat, sans-serif;
+    font-style: normal
+}
+
+#particles-js {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%
+}
+
+.Front-page-text {
+    height: 300px;
+    width: 800px;
+    margin: 150px auto;
+    text-align: center
+}
+
+.Front-page h1 {
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    font-size: 8em;
+    margin: -50px auto
+}
+
+.Front-page p {
+    color: #c1c1c1;
+    margin: 50px auto;
+    font-weight: 400;
+    font-size: 1em
+}
+
+.Front-page-links {
+    position: relative;
+    width: 900px;
+    height: 100px;
+    margin: -320px auto;
+    left: -10px;
+    display: flex;
+    list-style: none
+}
+
+.Font-page h1 {
+    color: #fff;
+    font-weight: 400;
+    font-style: normal
+}
+
+.Front-page h1 span {
+    color: var(--primary-color)
+}
+
+.Front-page-buttons {
+    text-decoration: none;
+    margin: 85px auto;
+    display: flex;
+    list-style: none
+}
+
+.frontbutton {
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 1s;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 13px 70px;
+    opacity: 1;
+    transition: .5s;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    margin: 3px
+}
+
+.frontbutton:hover {
+    box-shadow: inset 10px 0 0 40px var(--primary-color-hover)
+}
+
+.shopping {
+    transition: .2s;
+    position: absolute;
+    margin: 1px auto;
+    margin-left: 10px
+}
+
+.frontbutton:hover .shopping {
+    transition: .2s;
+    margin-left: 20px
+}
+
+.kinggen {
+    transition: .2s;
+    position: absolute;
+    margin: -4px auto;
+    margin-left: 10px
+}
+
+.frontbutton:hover .kinggen {
+    transition: .2s;
+    margin-left: 20px
+}
+
+#kinggenbutton {
+    font-size: 1em;
+    padding: 16px 70px
+}
+
+.discord {
+    transition: .2s;
+    position: absolute;
+    margin: 1px auto;
+    margin-left: 10px
+}
+
+.frontbutton:hover .discord {
+    transition: .2s;
+    margin-left: 20px
+}
+
+.topline {
+    position: absolute;
+    border-radius: 100px;
+    height: 1px;
+    width: 850px;
+    background-color: #969696;
+    margin: 0 auto
+}
+
+.features-boxes {
+    position: relative;
+    height: 300px;
+    width: 850px;
+    margin: 0 auto;
+    top: 350px;
+    display: flex
+}
+
+.topbar {
+    transition: .4s;
+    width: 210;
+    height: 1px;
+    background-color: var(--primary-color);
+    overflow: hidden
+}
+
+.box {
+    transition: .5s;
+    height: 240px;
+    width: 250px;
+    margin: auto;
+    background-color: var(--dark-box);
+    border-radius: 5px
+}
+
+.box-icon {
+    position: relative;
+    transition: .2s;
+    margin: 20px auto;
+    margin-left: 95px
+}
+
+.box:hover .line {
+    width: 70px;
+    height: 2px;
+    background-color: var(--primary-color)
+}
+
+.box:hover p {
+    color: #fff
+}
+
+.box:hover .topbar {
+    transition: .4s;
+    height: 20px
+}
+
+.box h1 {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: -15px;
+    font-size: 1.3em
+}
+
+.line {
+    transition: .4s;
+    height: 1px;
+    width: 30px;
+    background-color: #969696;
+    margin: -20px auto
+}
+
+.box p {
+    transition: .4s;
+    position: relative;
+    color: #a5a5a5;
+    text-align: center;
+    top: 15px;
+    font-size: .8em
+}
